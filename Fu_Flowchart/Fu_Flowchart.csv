@@ -1,0 +1,48 @@
+Id,Name,Shape Library,Page ID,Contained By,Group,Line Source,Line Destination,Source Arrow,Destination Arrow,Status,Text Area 1,Comments
+1,Document,,,,,,,,,Draft,Flowcharts,
+2,Page,,,,,,,,,,Page 1,
+3,Terminator,Flowchart Shapes/Containers,2,,,,,,,,Start.,
+4,Decision,Flowchart Shapes/Containers,2,,,,,,,,Pinfu Tsumo?,
+5,Decision,Flowchart Shapes/Containers,2,,,,,,,,Chiitoitsu / Seven Pairs?,
+6,Decision,Flowchart Shapes/Containers,2,,,,,,,,Pinfu Ron?,
+7,Decision,Flowchart Shapes/Containers,2,,,,,,,,How did you win your hand?,
+8,Rectangle,,2,,,,,,,,​+10 fu.,
+9,Rectangle,,2,,,,,,,,​+2 fu.,
+10,Process,Flowchart Shapes/Containers,2,,,,,,,,Start at 20 fu.,
+11,Data (I/O),Flowchart Shapes/Containers,2,,,,,,,,You have 20 fu.,
+12,Data (I/O),Flowchart Shapes/Containers,2,,,,,,,,You have 25 fu.,
+13,Data (I/O),Flowchart Shapes/Containers,2,,,,,,,,You have 30 fu.,
+14,Process,Flowchart Shapes/Containers,2,,,,,,,,Add fu for each triplet and quad.,
+15,Rectangle,,2,,,,,,,,Simples:  +2 fu open triplet. +4 fu closed triplet. +8 fu open quad. +16 fu closed quad.,
+16,Rectangle,,2,,,,,,,,Terminals/honors:  +4 fu open triplet. +8 fu closed triplet. +16 fu open quad. +32 fu closed quad.,
+17,Decision,Flowchart Shapes/Containers,2,,,,,,,,What was your wait shape?,
+18,Terminator,Flowchart Shapes/Containers,2,,,,,,,,Done,
+19,Process,Flowchart Shapes/Containers,2,,,,,,,,Round total fu up to the nearest 10.,
+20,Rectangle,,2,,,,,,,,​+2 fu.,
+21,Rectangle,,2,,,,,,,,"Add fu based on triplet/quad fu.  Ron is open, tsumo is closed.",
+22,Rectangle,,2,,,,,,,,Quick notes: 	5+ han does not require fu calculation. 	Ron on two-sided sequence wait with no triplets is 30 fu. 	Most tsumos and open hands are 30 fu in the absence of 	pinfu or terminal/honor triplets or quads. 	Most closed rons are 40 fu in the absence of pinfu or 	terminal/honor triplets or quads. ,
+23,Line,,2,,,3,4,None,Arrow,,Did you win with...,
+24,Line,,2,,,4,5,None,Arrow,,No,
+25,Line,,2,,,4,11,None,Arrow,,Yes,
+26,Line,,2,,,5,6,None,Arrow,,No,
+27,Line,,2,,,5,12,None,Arrow,,Yes,
+28,Line,,2,,,6,13,None,Arrow,,Yes,
+29,Line,,2,,,6,10,None,Arrow,,No,
+30,Line,,2,,,10,7,None,Arrow,,,
+31,Line,,2,,,7,8,None,Arrow,,Closed hand Ron,
+32,Line,,2,,,7,9,None,Arrow,,Tsumo,
+33,Line,,2,,,7,14,None,Arrow,,Open hand Ron,
+34,Line,,2,,,8,14,None,Arrow,,,
+35,Line,,2,,,9,14,None,Arrow,,,
+36,Line,,2,,,14,15,None,Arrow,,,
+37,Line,,2,,,15,16,None,Arrow,,,
+38,Line,,2,,,16,17,None,Arrow,,,
+39,Line,,2,,,12,18,None,Arrow,,,
+40,Line,,2,,,13,18,None,Arrow,,,
+41,Line,,2,,,11,18,None,Arrow,,,
+42,Line,,2,,,19,18,None,Arrow,,,
+43,Line,,2,,,17,19,None,Arrow,,Two-sided sequence,
+44,Line,,2,,,17,20,None,Arrow,,Middle/Edge sequence or single pair,
+45,Line,,2,,,17,21,None,Arrow,,Double pair,
+46,Line,,2,,,21,19,None,Arrow,,,
+47,Line,,2,,,20,19,None,Arrow,,,
