@@ -21,14 +21,14 @@ Id,Name,Shape Library,Page ID,Contained By,Group,Line Source,Line Destination,So
 20,Rectangle,,2,,,,,,,,​+2 fu.,
 21,Rectangle,,2,,,,,,,,"Add fu based on triplet/quad fu.  Ron is open, tsumo is closed.",
 22,Rectangle,,2,,,,,,,,Quick notes: 	5+ han does not require fu calculation. 	Ron on two-sided sequence wait with no triplets is 30 fu. 	Most tsumos and open hands are 30 fu in the absence of 	pinfu or terminal/honor triplets or quads. 	Most closed rons are 40 fu in the absence of pinfu or 	terminal/honor triplets or quads. ,
-23,Line,,2,,,3,4,None,Arrow,,Did you win with...,
-24,Line,,2,,,4,5,None,Arrow,,No,
-25,Line,,2,,,4,11,None,Arrow,,Yes,
-26,Line,,2,,,5,6,None,Arrow,,No,
-27,Line,,2,,,5,12,None,Arrow,,Yes,
-28,Line,,2,,,6,13,None,Arrow,,Yes,
-29,Line,,2,,,6,10,None,Arrow,,No,
-30,Line,,2,,,10,7,None,Arrow,,,
+23,Rectangle,,2,,,,,,,,​+2 fu if your pair is dragons or seat/round wind.,
+24,Line,,2,,,3,4,None,Arrow,,Did you win with...,
+25,Line,,2,,,4,5,None,Arrow,,No,
+26,Line,,2,,,4,11,None,Arrow,,Yes,
+27,Line,,2,,,5,6,None,Arrow,,No,
+28,Line,,2,,,5,12,None,Arrow,,Yes,
+29,Line,,2,,,6,13,None,Arrow,,Yes,
+30,Line,,2,,,6,10,None,Arrow,,No,
 31,Line,,2,,,7,8,None,Arrow,,Closed hand Ron,
 32,Line,,2,,,7,9,None,Arrow,,Tsumo,
 33,Line,,2,,,7,14,None,Arrow,,Open hand Ron,
@@ -46,3 +46,5 @@ Id,Name,Shape Library,Page ID,Contained By,Group,Line Source,Line Destination,So
 45,Line,,2,,,17,21,None,Arrow,,Double pair,
 46,Line,,2,,,21,19,None,Arrow,,,
 47,Line,,2,,,20,19,None,Arrow,,,
+48,Line,,2,,,10,23,None,Arrow,,,
+49,Line,,2,,,23,7,None,Arrow,,,
